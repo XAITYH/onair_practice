@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  height: 101px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #fff;
+}
+
+header ul a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27.58px;
+}
+
+header a {
+    display: flex;
+}
