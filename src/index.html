@@ -18,18 +18,42 @@
     />
   </head>
   <body>
-    <header class="bg-black max-w-full">
-      <img class="logo" src="../public/onair-logo.svg" alt="onair logotype"/>
+    <header class="bg-black">
+      <nav class="gap-20 h-full">
+        <img class="logo" src="../public/onair-logo.svg" alt="onair logotype" />
 
-      <ul class="flex gap-20 mr-auto">
-        <li><a href="#">Movies</a></li>
-        <li><a href="#">Series</a></li>
-        <li><a href="#">Channels</a></li>
-        <li><a href="#">Music</a></li>
-      </ul>
+        <ul class="flex ubuntu">
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Series</a></li>
+          <li><a href="#">Channels</a></li>
+          <li><a href="#">Music</a></li>
+        </ul>
 
-      <a href="#"><img src="../public/search.svg" alt="search" /> Search</a>
-      <a href="#"><img src="../public/avatar.svg" alt="avatar" /> Sign in</a>
+        <div class="nav-links-right flex">
+          <a class="nav-link flex" href="#"
+            ><img src="../public/search.svg" alt="search" /> Search</a
+          >
+          <a class="nav-link flex" href="#"
+            ><img src="../public/avatar.svg" alt="avatar" /> Sign in</a
+          >
+        </div>
+      </nav>
     </header>
+
+    <section id="slides">
+      <div class="slider flex flex-col justify-center h-full">
+        <h1 class="slider-header max-w-lg text-white">
+          Dive into a <span class="font-bold">universe</span> of un-ending
+          content and channels
+        </h1>
+        <button class="sliderTrialBtn ubuntu text-white">Start FREE trial</button>
+
+        <div class="slider-footer flex">
+          <img src="../public/arrow-left.svg" alt="tap to swipe left" class="slider-arrow">
+          <div class="slider-slides"></div>
+          <img src="../public/arrow-right.svg" alt="tap to swipe right" class="slider-arrow">
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -2,23 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-  height: 101px;
-  display: flex;
-  align-items: center;
-}
-
-a {
-  color: #fff;
-}
-
-header ul a {
+.ubuntu {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 27.58px;
 }
 
-header a {
-    display: flex;
+header {
+  width: 100%;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #fff;
+}
+
+nav {
+  width: inherit;
+  max-width: 1820px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logo {
+  margin-left: 1.5%;
+}
+
+nav ul {
+  gap: 90px;
+}
+
+.nav-links-right {
+  margin-left: auto;
+  gap: 71px;
+  margin-right: 0.15%;
+}
+
+.nav-link {
+  font-family: "Raleway", system-ui;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.18px;
+  gap: 7px;
+}
+
+.slider {
+  height: 930px;
+  background-image: url("../public/onair-slide-1\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 70px;
+  row-gap: 40px;
+}
+
+.slider-header {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 55.15px;
+}
+
+.sliderTrialBtn {
+  background-color: #E13C52;
+  width: 238px;
+  height: 48px;
+  border-radius: 60px;
+  position: relative;
+  top: 25px;
+}
+
+.slider-slides {
+  width: 227px;
+}
+
+.slider-slides::after {
+  content: "";
+  position: absolute;
+  top: 0;
 }
