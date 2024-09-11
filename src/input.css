@@ -112,6 +112,10 @@ nav ul {
   display: list-item;
 }
 
+.slider-slides li:first-of-type {
+  background-color: #fff;
+}
+
 .slider-slides li:active {
   background-color: #fff;
 }
