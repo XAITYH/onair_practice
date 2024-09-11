@@ -69,7 +69,7 @@ nav ul {
 }
 
 .sliderTrialBtn {
-  background-color: #E13C52;
+  background-color: #e13c52;
   width: 238px;
   height: 48px;
   border-radius: 60px;
@@ -77,12 +77,45 @@ nav ul {
   top: 25px;
 }
 
-.slider-slides {
-  width: 227px;
+.slider-footer {
+  position: absolute;
+  bottom: -67.5px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.slider-slides::after {
-  content: "";
-  position: absolute;
-  top: 0;
+.slider-slides {
+  width: 227px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+  top: 28.5px;
+}
+
+.slider-slides li {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 50px;
+  height: 4px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: list-item;
+}
+
+.slider-slides li:active {
+  background-color: #fff;
+}
+
+.slider-slides li::before, .slider-slides li::after {
+  box-sizing: border-box;
 }
