@@ -582,6 +582,10 @@ video {
   gap: 5rem;
 }
 
+.gap-24 {
+  gap: 6rem;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -680,7 +684,6 @@ nav ul {
   bottom: -67.5px;
   left: 50%;
   transform: translate(-50%);
-  gap: 94px;
 }
 
 .slider-slides {
@@ -697,7 +700,7 @@ nav ul {
 
 .slider-slides li {
   flex: 0 1 auto;
-  width: 46px;
+  width: 50px;
   height: 4px;
   margin-right: 0;
   margin-left: 0;
@@ -720,6 +723,11 @@ nav ul {
 
 .slider-slides li::before, .slider-slides li::after {
   box-sizing: border-box;
+}
+
+.channel_cont {
+  width: 250px;
+  height: 260px;
 }
 
 .hover\:opacity-100:hover {
