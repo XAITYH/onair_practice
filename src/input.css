@@ -129,7 +129,8 @@ nav ul {
   opacity: 1;
 }
 
-.slider-slides li::before, .slider-slides li::after {
+.slider-slides li::before,
+.slider-slides li::after {
   box-sizing: border-box;
 }
 
@@ -146,7 +147,26 @@ nav ul {
   margin-top: 68px;
 }
 
+.channel_cont:nth-of-type(3) {
+  position: relative;
+  transition: 0.3s;
+  background-image: url('../public/images/rec-channel-3.png');
+}
+
+.channel_cont:nth-of-type(3):hover {
+  background-image: url('../public/images/rec-channel-3-changed.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 482px;
+  height: 464px;
+}
+
 .channel_cont {
   width: 260px;
   height: 260px;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
