@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url("../public/images/bg.png");
+}
+
 .ubuntu {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
@@ -129,11 +133,20 @@ nav ul {
   box-sizing: border-box;
 }
 
-.channel_cont {
-  width: 250px;
-  height: 260px;
+#catalog h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36.77px;
+  margin-left: 70px;
+  margin-bottom: 35px;
+}
+
+#recommendedChannels {
+  margin-top: 68px;
 }
 
 .channel_cont {
-  
+  width: 260px;
+  height: 260px;
 }

@@ -586,6 +586,11 @@ video {
   gap: 6rem;
 }
 
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -602,6 +607,10 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+body {
+  background-image: url("../public/images/bg.png");
 }
 
 .ubuntu {
@@ -725,8 +734,21 @@ nav ul {
   box-sizing: border-box;
 }
 
+#catalog h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36.77px;
+  margin-left: 70px;
+  margin-bottom: 35px;
+}
+
+#recommendedChannels {
+  margin-top: 68px;
+}
+
 .channel_cont {
-  width: 250px;
+  width: 260px;
   height: 260px;
 }
 
