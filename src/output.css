@@ -662,6 +662,8 @@ nav ul {
   gap: 7px;
 }
 
+/* Slider */
+
 .slider {
   height: 930px;
   background-image: url("../public/onair-slide-1\ 1.png");
@@ -735,6 +737,8 @@ nav ul {
   box-sizing: border-box;
 }
 
+/* Catalog */
+
 #catalog h1 {
   color: #fff;
   font-weight: 400;
@@ -744,12 +748,20 @@ nav ul {
   margin-bottom: 35px;
 }
 
+/* Recommended channels */
+
 #recommendedChannels {
   margin-top: 68px;
 }
 
+.channel_cont {
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .channel_cont:nth-of-type(3) {
-  position: relative;
   transition: 0.3s;
   background-image: url('../public/images/rec-channel-3.png');
 }
@@ -762,11 +774,19 @@ nav ul {
   height: 464px;
 }
 
-.channel_cont {
-  width: 260px;
-  height: 260px;
-  cursor: pointer;
-  background-repeat: no-repeat;
+/* ad_banner */
+
+.ad_banner {
+  display: inline-block;
+  background-color: black;
+  width: 728px;
+  height: 90px;
+}
+
+/* New Channels */
+
+#newChannels {
+  margin-top: 68px;
 }
 
 .hover\:opacity-100:hover {

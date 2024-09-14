@@ -1,4 +1,5 @@
 const channel_conts = document.querySelectorAll(".channel_cont");
+const rec_channels = document.querySelector(".rec_channels_cont")
 
 for (i = 0; i < channel_conts.length; i++) {
     if(i == 2)
