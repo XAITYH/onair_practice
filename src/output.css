@@ -591,13 +591,26 @@ video {
        column-gap: 2.5rem;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-white {
@@ -777,10 +790,16 @@ nav ul {
 /* ad_banner */
 
 .ad_banner {
-  display: inline-block;
+  display: flex;
   background-color: black;
   width: 728px;
   height: 90px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36.77px;
+  border: solid 1px #848484;
 }
 
 /* New Channels */
