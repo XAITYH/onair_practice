@@ -752,6 +752,11 @@ nav ul {
 
 /* Catalog */
 
+#catalog {
+  display: flex;
+  flex-direction: column;
+}
+
 #catalog h1 {
   color: #fff;
   font-weight: 400;
@@ -800,6 +805,9 @@ nav ul {
   font-size: 32px;
   line-height: 36.77px;
   border: solid 1px #848484;
+  align-self: flex-end;
+  margin-top: 70px;
+  margin-right: 70px;
 }
 
 /* New Channels */
