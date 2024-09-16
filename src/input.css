@@ -204,3 +204,19 @@ nav ul {
 #newChannels {
   margin-top: 68px;
 }
+
+.newChannelsHeader {
+  align-items: center;
+  gap: 65px;
+}
+
+.viewAll {
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 30px;
+}
+
+.viewAllSpan {
+  border-bottom: solid 1px #fff;
+}
