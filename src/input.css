@@ -165,12 +165,12 @@ nav ul {
   background-repeat: no-repeat;
 }
 
-.channel_cont:nth-of-type(3) {
+.rec_channels_cont .channel_cont:nth-of-type(3) {
   transition: 0.3s;
   background-image: url('../public/images/rec-channel-3.png');
 }
 
-.channel_cont:nth-of-type(3):hover {
+.rec_channels_cont .channel_cont:nth-of-type(3):hover {
   background-image: url('../public/images/rec-channel-3-changed.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -203,6 +203,8 @@ nav ul {
 
 #newChannels {
   margin-top: 68px;
+  display: flex;
+  flex-direction: column;
 }
 
 .newChannelsHeader {
@@ -219,4 +221,11 @@ nav ul {
 
 .viewAllSpan {
   border-bottom: solid 1px #fff;
+}
+
+.new-channel_cont {
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
