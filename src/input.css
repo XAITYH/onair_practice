@@ -238,3 +238,14 @@ nav ul {
   flex-direction: column;
   margin-top: 80px;
 }
+
+.new-movie_cont {
+  width: 231px;
+  height: 348px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.new-movie_cont:nth-of-type(5) {
+  background-image: url("../public/images/new-1-pop-3-movie.png");
+}
