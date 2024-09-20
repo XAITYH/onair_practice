@@ -1,1 +1,1 @@
-This is HTML, CSS and Tailwind practice
+This is the HTML, CSS and Tailwind practice
