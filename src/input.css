@@ -178,7 +178,7 @@ nav ul {
   background-size: contain;
   background-repeat: no-repeat;
   width: 482px;
-  height: 464px;
+  height: 444px;
 }
 
 /* ad_banner */
@@ -247,5 +247,34 @@ nav ul {
 }
 
 .new-movie_cont:nth-of-type(5) {
+  background-image: url("../public/images/new-1-pop-3-movie.png");
+}
+
+/* Popular Movies */
+
+#popMovies {
+  margin-top: 68px;
+}
+
+.pop-movie_cont {
+  width: 231px;
+  height: 348px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.pop-movie_cont:nth-of-type(7) {
+  background-image: url("../public/images/new-1-pop-3-movie.png");
+}
+
+.pop-second-movie_cont {
+  width: 231px;
+  height: 348px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+.pop-second-movie_cont:nth-of-type(5) {
   background-image: url("../public/images/new-1-pop-3-movie.png");
 }
