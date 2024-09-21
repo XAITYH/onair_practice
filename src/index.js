@@ -49,13 +49,14 @@ for (let i = 0; i < pop_movie_conts.length; i++) {
 }
 
 // Pop Second Movie Conts
-
 for (let i = 0; i < pop_second_movie_conts.length; i++) {
   if (i == 4) continue;
 
   let pop_num = popNumbers[i];
 
-  pop_second_movie_conts[i].style.backgroundImage = `url('../public/images/new-${
+  pop_second_movie_conts[
+    i
+  ].style.backgroundImage = `url('../public/images/new-${
     i + 1
   }-pop-${pop_num}-movie.png')`;
 }

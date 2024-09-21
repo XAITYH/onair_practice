@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-image: url("../public/images/bg.png");
 }
 
 .ubuntu {
@@ -53,6 +52,13 @@ nav ul {
   font-size: 24px;
   line-height: 28.18px;
   gap: 7px;
+}
+
+/* Main  */
+
+#main {
+  background-image: url("../public/images/bg_main.png");
+  background-repeat: no-repeat;
 }
 
 /* Slider */
@@ -254,6 +260,7 @@ nav ul {
 
 #popMovies {
   margin-top: 68px;
+  margin-bottom: 130px;
 }
 
 .pop-movie_cont {
@@ -277,4 +284,10 @@ nav ul {
 
 .pop-second-movie_cont:nth-of-type(5) {
   background-image: url("../public/images/new-1-pop-3-movie.png");
+}
+
+footer {
+  display: flex;
+  background-color: #191919;
+  height: 591px;
 }
