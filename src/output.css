@@ -558,36 +558,12 @@ video {
   margin-bottom: 5rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
@@ -990,6 +966,48 @@ footer {
 .download_btn:first-of-type p {
   position: relative;
   left: 1px;
+}
+
+/* Social */
+
+/* Facebook */
+
+.facebook:hover circle {
+  stroke: #0866ff;
+}
+
+.facebook:hover path {
+  fill: #0866ff;
+}
+
+/* Instagram */
+
+.instagram:hover circle {
+  stroke: #f77737;
+}
+
+.instagram:hover path {
+  fill: #f77737;
+}
+
+/* Twiiter */
+
+.twitter:hover circle {
+  stroke: #55ACE3;
+}
+
+.twitter:hover path {
+  fill: #55ACE3;
+}
+
+/* YouTube */
+
+.youtube:hover circle {
+  stroke: red;
+}
+
+.youtube:hover path {
+  fill: red;
 }
 
 .hover\:opacity-100:hover {

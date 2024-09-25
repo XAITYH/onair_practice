@@ -323,4 +323,43 @@ footer {
 .download_btn:first-of-type p {
   position: relative;
   left: 1px;
+  
+}
+
+/* Social */
+
+/* Facebook */
+.facebook:hover circle {
+  stroke: #0866ff;
+}
+
+.facebook:hover path {
+  fill: #0866ff;
+}
+
+/* Instagram */
+.instagram:hover circle {
+  stroke: #f77737;
+}
+
+.instagram:hover path {
+  fill: #f77737;
+}
+
+/* Twiiter */
+.twitter:hover circle {
+  stroke: #55ACE3;
+}
+
+.twitter:hover path {
+  fill: #55ACE3;
+}
+
+/* YouTube */
+.youtube:hover circle {
+  stroke: red;
+}
+
+.youtube:hover path {
+  fill: red;
 }
