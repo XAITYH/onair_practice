@@ -288,10 +288,6 @@ footer {
   height: 591px;
 }
 
-.footer_holder {
-
-}
-
 .left-footer {
   width: 280px;
   margin-left: 70px;
@@ -323,10 +319,13 @@ footer {
 .download_btn:first-of-type p {
   position: relative;
   left: 1px;
-  
 }
 
 /* Social */
+
+.social {
+  column-gap: 2.5rem;
+}
 
 /* Facebook */
 .facebook:hover circle {
@@ -362,4 +361,17 @@ footer {
 
 .youtube:hover path {
   fill: red;
+}
+
+/* Terms of use, Privacy and SiteMap */
+.terms_privacy_map {
+  width: 295px;
+  height: 22px;
+  justify-content: space-between;
+}
+
+.terms_privacy_map a {
+  color: #616161;
+  font-size: 16px;
+  font-weight: 500;
 }
