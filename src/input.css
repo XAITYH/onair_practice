@@ -288,6 +288,14 @@ footer {
   height: 591px;
 }
 
+.footer_holder {
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+}
+
 .left-footer {
   width: 280px;
   margin-left: 70px;
@@ -374,4 +382,17 @@ footer {
   color: #616161;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* Footer Links */
+
+.footer_link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  line-height: 25.2px;
+}
+
+footer a:hover {
+  color: #fff;
 }
