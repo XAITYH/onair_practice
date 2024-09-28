@@ -708,7 +708,21 @@ nav {
 }
 
 nav ul {
-  gap: 90px;
+  gap: 35px;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  transition: 0.3s;
+  border-radius: 40px;
+  height: 48px;
+}
+
+nav ul li:hover {
+  background-color: #E13C52;
 }
 
 .nav-links-right {
