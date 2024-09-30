@@ -69,7 +69,7 @@ nav {
   color: #E90000;
 }
 
-.nav-link-left:hover .dropdown-content {
+.nav-link-cont:hover .dropdown-content {
   display: block;
 }
 
