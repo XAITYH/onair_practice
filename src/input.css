@@ -52,6 +52,17 @@ nav {
   background-color: #E13C52;
 }
 
+@keyframes popover {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px)
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
 .dropdown-content {
   background-color: #232229;
   display: none;
@@ -66,6 +77,7 @@ nav {
   font-size: 19px;
   top: 80px;
   row-gap: 6px;
+  animation: popover .2s ease-in-out;
 }
 
 .dropdown-content a:first-of-type {
