@@ -738,6 +738,14 @@ nav {
   }
 }
 
+.dropdown-content-bridge {
+  background: transparent;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+}
+
 .dropdown-content {
   background-color: #232229;
   display: none;
@@ -750,7 +758,7 @@ nav {
   padding: 15px;
   line-height: 24.7px;
   font-size: 19px;
-  top: 80px;
+  top: 30px;
   row-gap: 6px;
   animation: popover .2s ease-in-out;
 }
